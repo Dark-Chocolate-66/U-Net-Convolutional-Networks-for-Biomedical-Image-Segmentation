@@ -45,8 +45,8 @@ contribution table in the report).
 ## Setup
 
 ```bash
-git clone https://github.com/<org-or-user>/<repo>.git
-cd <repo>
+git clone https://github.com/Dark-Chocolate-66/U-Net-Convolutional-Networks-for-Biomedical-Image-Segmentation.git
+cd U-Net-Convolutional-Networks-for-Biomedical-Image-Segmentation
 pip install -r requirements.txt
 ```
 
