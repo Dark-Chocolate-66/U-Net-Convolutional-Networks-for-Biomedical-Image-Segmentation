@@ -13,9 +13,9 @@ Paper: https://arxiv.org/abs/1505.04597
 
 | Member | GitHub | Role |
 |---|---|---|
-| Muhammad Obaidullah (team lead) | banto.qta@gmail.com | Paper lead: architecture, reproduction |
-| Inshan Haider | 00inshanhaider@gmail.com | Data lead: datasets, shapes, evaluation |
-| Shayan Afzal | malikshayan05@gmail.com | Experiments lead: ablations, demo, report |
+| Muhammad Obaidullah (team lead) | Dark-Chocolate-66 | Paper lead: architecture, reproduction |
+| Inshan Haider | inshaanhaider | Data lead: datasets, shapes, evaluation |
+| Shayan Afzal | malikshayan05 | Experiments lead: ablations, demo, report |
 
 Every member implements one component and runs at least one ablation (see the
 contribution table in the report).
@@ -34,10 +34,10 @@ contribution table in the report).
 ```
 .
 ├── notebooks/        # Colab notebooks (reproduction, new dataset, ablations, debugging)
-├── src/              # model, dataset, training loop, metrics
-├── proposal/         # LaTeX proposal
+├── src/              # model, training loop, metrics
+├── docs/             # Proposal and other related documents
 ├── report/           # final report
-├── data/             # NOT committed (see .gitignore); notebooks download it
+├── data/             # datasets; both raw and processed
 ├── requirements.txt
 └── README.md
 ```
