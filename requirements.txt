@@ -1,0 +1,20 @@
+# Colab already ships with torch/torchvision; install the rest with:
+#   pip install -r requirements.txt
+
+torch>=2.1
+torchvision>=0.16
+numpy>=1.24
+scipy>=1.10
+pandas>=2.0
+matplotlib>=3.7
+pillow>=10.0
+tifffile>=2023.7.10      # ISBI 2012 data comes as multi-page TIFF stacks
+scikit-image>=0.21       # image utilities, elastic deformation helpers
+albumentations>=1.3      # augmentation (flips, elastic transform)
+scikit-learn>=1.3        # metrics
+torchinfo>=1.8           # layer-by-layer shapes and parameter counts
+tqdm>=4.65
+gradio>=4.0              # live demo
+
+# Optional (bonus: pretrained ResNet-34 encoder)
+# segmentation-models-pytorch>=0.3
