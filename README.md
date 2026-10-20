@@ -37,7 +37,7 @@ contribution table in the report).
 ├── src/              # model, training loop, metrics
 ├── docs/             # Proposal and other related documents
 ├── report/           # final report
-├── data/             # datasets; both raw and processed
+├── data/             # local only (git-ignored); notebooks download datasets here
 ├── requirements.txt
 └── README.md
 ```
